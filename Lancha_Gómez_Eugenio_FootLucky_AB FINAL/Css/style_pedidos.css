@@ -1,0 +1,46 @@
+#cuerpo {
+    background-color: beige;
+}
+
+.inicio {
+    color: whitesmoke;
+    align-items: center;
+    justify-content:space-between;
+    display: inline-flex;
+    width: 100%;
+}
+.inicio__logo1 {
+    height: 8%;
+    width: 4vw;
+    margin: 1vh 1vw;
+}
+.inicio__logo2 {
+    height: 8%;
+    width: 4vw;
+    margin: 1vh 1vw;
+}
+
+
+
+
+
+
+
+#footer {
+    margin-top: 10vh;
+    background-color:rgb(25, 25, 25);
+    height: 50vh;
+    width: 100%;
+    border-top: 1.6vh solid rgb(61, 61, 61);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer a {
+    color: whitesmoke;
+}
+#mapa--footer {
+    height: 20vh;
+    width: 20vw;
+}
