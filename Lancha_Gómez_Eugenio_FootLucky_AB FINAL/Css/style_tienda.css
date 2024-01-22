@@ -1,0 +1,66 @@
+#cuerpo {
+    background-color: beige;
+}
+
+.inicio {
+    color: whitesmoke;
+    align-items: center;
+    justify-content:space-between;
+    display: inline-flex;
+    width: 100%;
+}
+.inicio__logo1 {
+    height: 8%;
+    width: 4vw;
+    margin: 1vh 1vw;
+}
+.inicio__logo2 {
+    height: 8%;
+    width: 4vw;
+    margin: 1vh 1vw;
+}
+
+
+.container-fluid {
+    background-color: beige;
+    padding: 0.5vh 0.5vw;
+}
+
+.btn-secondary {
+    width: 100%; 
+    margin-bottom: 10px; 
+}
+
+@media (max-width: 768px) {
+    .inicio__logo1,
+    .inicio__logo2 {
+        width: 10vw; /* Ajuste del tamaño del logo para pantallas pequeñas */
+    }
+
+}
+
+@media (max-width: 768px) {
+    .col {
+        width: 100%; 
+    }
+}
+
+
+#footer {
+    margin-top: 10vh;
+    background-color:rgb(25, 25, 25);
+    height: 50vh;
+    width: 100%;
+    border-top: 1.6vh solid rgb(61, 61, 61);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer a {
+    color: whitesmoke;
+}
+#mapa--footer {
+    height: 20vh;
+    width: 20vw;
+}
