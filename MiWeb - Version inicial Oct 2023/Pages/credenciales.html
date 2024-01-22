@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registrarse</title>
+        <!-- FONT JOST 500 -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/799bc4e5c6.js"></script>
+        <!-- STYLES -->
+        <link rel="stylesheet" href="..\Css\style_credenciales.css">
+    </head>
+</head>
+<body id = "cuerpo">
+    <header>
+        <div class = "top-bar">
+            <a class="buttoms" href="login.html">
+                Iniciar Sesión
+            </a>
+            <a class="buttoms" href="credenciales.html">
+                Registrarse
+            </a>
+        </div>
+        <div class = "inicio">
+            <img class="inicio__logo1" src="..\img\logos\zapatillas.png" alt="logo zapatillas">
+            <h1 class="inicio__titulo">Bienvenido a Foot Lucky</h1>
+            <img class="inicio__logo2" src="..\img\logos\zapatillas.png" alt="logo zapatillas">
+        </div>
+        <div>
+        </div>
+    </header>
+    <main class="registro">
+            <form>
+                <h2 class="titulo--registro">Registro</h2>
+                <label for="correo">Correo electrónico: </label>
+                <input type="text" id="mail">
+
+                <label for="rep-correo">Repita su correo electrónico: </label>
+                <input type="text" id="re-mail">
+
+                <label for="usuario">Nombre de usuario: </label>
+                <input type="text" id="username">
+
+                <label for="contraseña">Contraseña: </label>
+                <input type="text" id="password">
+
+                <label for="re-contraseña">Repita su contraseña: </label>
+                <input type="text" id="re-password">
+
+                <label for="direccion">Indique su dirección: </label>
+                <input type="text" id="address">
+
+                <label>
+                    <input type="checkbox">
+                    <label>Acepto los términos y condiciones</label>
+                </label>
+
+            <a href="..\index.html" class="boton--login">Registrarse</a> 
+            </form>
+    </main>
+</body>
+</html>

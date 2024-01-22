@@ -1,0 +1,176 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+    /* overflow: hidden; */
+}
+html {
+    font-family: "Jost", sans-serif;
+    box-sizing: content-box;
+}
+
+#cuerpo {
+    background-color: beige;
+}
+
+.top-bar{
+    display: flex;
+    background-color: rgb(25, 25, 25);
+    justify-content: right;
+    width: 100%;
+}
+.buttoms {
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    margin-left: 1vw;
+    text-decoration: none;
+    text-align: center;
+    height: 20px;
+    padding: 0.3vh 2vw;
+    background-color: azure;
+    color: rgb(25, 25, 25);
+    display: inline-block;
+    border-radius: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttoms:hover {
+    background-color:rgb(202, 255, 255);
+}
+.inicio {
+    background-color: rgb(25, 25, 25);
+    color: whitesmoke;
+    align-items: center;
+    justify-content:space-between;
+    display: inline-flex;
+    width: 100%;
+}
+.inicio__titulo {
+    padding-top: 2vh;
+
+}
+.inicio__logo1 {
+    height: 8vh;
+    width: 3.5vw;
+    padding-top: 1vh;
+    padding-left: 1vw;
+}
+.inicio__logo2 {
+    height: 8vh;
+    width: 3.5vw;
+    padding-top: 1vh;
+    padding-right: 1vw;
+}
+
+.envios-buttoms {
+    text-align: center;
+    /* position: absolute; */
+    justify-content: space-around;
+    display: inline-flex;
+    /* height: 4.5vh; */
+    width: 100%;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+.buttoms--envios {
+    min-width: none;
+    border: 1px solid black;
+    background-color: rgb(176, 176, 176);
+    color: white;
+    padding: 1vh 3vw;
+    border-radius: 10px;
+}
+.buttoms--envios:hover{
+    background-color: grey;
+}
+
+
+/* Tienda */
+
+.main-content {
+    padding: 10px;
+}
+
+.articles1_tienda-flex {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    gap: 1.5vw;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+
+}
+
+.article__img {
+    width: 100%;
+}
+
+.articles1__title {
+ margin: 10px 20px;
+ font-size: 30px;
+}
+
+.adidas1 {
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 40px;
+}
+.adidas2 {
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 40px;
+}
+
+.adidas3 {
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 40px;
+}
+.adidas4 {
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 40px;
+}
+
+.nike1 {
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 40px;
+}
+.nike2 {
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 40px;
+}
+.nike3 {
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 40px;
+}
+.nike4 {
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 40px;
+}
+
+.nbalance1 {
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 40px;
+}
+.nbalance2 {
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 40px;
+}
+.nbalance3 {
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 40px;
+}
+.nbalance4 {
+    background-color: whitesmoke;
+    border: 3px solid black;
+    border-radius: 40px;
+}

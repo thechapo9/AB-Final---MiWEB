@@ -1,0 +1,91 @@
+html {
+    font-family: "Jost", sans-serif;
+}
+
+#cuerpo {
+    background-color: beige;
+}
+
+.top-bar{
+    display: flex;
+    background-color: rgb(25, 25, 25);
+    justify-content: right;
+    width: 100%;
+}
+.buttoms {
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    margin-left: 1vw;
+    text-decoration: none;
+    text-align: center;
+    height: 20px;
+    padding: 0.3vh 2vw;
+    background-color: azure;
+    color: rgb(25, 25, 25);
+    display: inline-block;
+    border-radius: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttoms:hover {
+    background-color:rgb(202, 255, 255);
+}
+.inicio {
+    background-color: rgb(25, 25, 25);
+    color: whitesmoke;
+    align-items: center;
+    justify-content:space-between;
+    display: inline-flex;
+    width: 100%;
+}
+.inicio__titulo {
+    padding-top: 2vh;
+
+}
+.inicio__logo1 {
+    height: 8vh;
+    width: 3.5vw;
+    padding-top: 1vh;
+    padding-left: 1vw;
+}
+.inicio__logo2 {
+    height: 8vh;
+    width: 3.5vw;
+    padding-top: 1vh;
+    padding-right: 1vw;
+}
+
+/* Login */
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.titulo--login {
+    margin-bottom: 4vh;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 16vw;
+
+}
+.recordar a{
+    color: rgb(25, 25, 25);
+    text-decoration: none;
+}
+.boton--login {
+    margin: 3vw;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 140px;
+    color: rgb(25, 25, 25);
+    background-color: azure;
+    width: 10vw;
+}
+.boton--login:hover {
+    background-color: rgb(202, 255, 255);
+}
